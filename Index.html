@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>AppnimaMundi</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!-- Icono de la pantalla de inicio del iPhone: PNG cuadrado, sin transparencia, 180 px o más (ideal 512-1024). Va en el MISMO repositorio que esta página. -->
+<link rel="apple-touch-icon" href="AppnimaMundi_icon.png">
+<link rel="icon" type="image/png" href="AppnimaMundi_icon.png">
+<meta name="apple-mobile-web-app-title" content="AppnimaMundi">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<style>
+  html, body { margin: 0; height: 100%; background: #fff; }
+  iframe { position: fixed; inset: 0; width: 100%; height: 100%; border: 0; }
+</style>
+</head>
+<body>
+<!-- Pega aquí la URL de tu implementación (la que termina en /exec) -->
+<iframe id="app" allow="clipboard-write" title="AppnimaMundi"></iframe>
+<script>
+  var APP_URL = 'https://script.google.com/macros/s/AKfycbwPdgIzqzhSoW2VeL6FtXBRJ-eZQALgT-SHdZi_qpS8U69O70BI2yIgE14eAYPpYR54/exec';
+  document.getElementById('app').src = APP_URL;
+</script>
+</body>
+</html>
